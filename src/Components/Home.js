@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from "styled-components"
 import Section from "./Section"
+import Footer from "./footer"
+
 
 function Home() {
     return ( <Container >
@@ -53,6 +55,7 @@ function Home() {
   backgroundImg="accessories.jpg"
   leftBtnText="Shop Now"
         />
+        <Footer />
 
         </Container>
     )
